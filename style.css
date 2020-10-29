@@ -1,0 +1,79 @@
+@font-face {
+    font-family: ArchitectsDaughter;
+    src: url(ArchitectsDaughter-Regular.ttf);
+}
+
+body{
+    font-family: ArchitectsDaughter;
+    font-size: 25px;
+    background-color: #8bcdcd;
+    color:#3797a4;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.to-do-list{
+    width: 25em;
+    background-color: #FFF8cd;
+    padding: 1em;
+    list-style: none;
+    padding-inline-start: 1em;
+    margin: auto;
+}
+
+button{
+    font-family: ArchitectsDaughter;
+    font-size: 18px;
+    background-color: #3797a4;
+    color: #FFF8cd;
+    border-color: #FFF8cd;
+    border: 3px;
+}
+
+.input{
+    max-width: 18em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.delete-all-button{
+    display: block;
+    max-width: 12em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+
+}
+
+.input-field{
+    height: 2.5em;
+    width: 18em;
+    border-color: #3797a4;
+    border-radius: 8px;
+    font-family: ArchitectsDaughter;
+    font-size: 15px;
+    text-align: center;
+}
+
+.checkbox{
+    padding: 5px
+}
+.task-content{
+    margin: 1em;
+}
+.remove-icon{
+    padding: 5px;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: lightgrey
+}
+
+.grey{
+    background-color: lightgrey;
+}

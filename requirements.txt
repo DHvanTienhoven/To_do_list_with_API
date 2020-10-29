@@ -1,0 +1,35 @@
+User requirements:
+
+[x]  Als gebruiker wil ik een inputveld zien waarin ik mijn taak kan invullen
+[x]  Als gebruiker kan ik op een button drukken met de tekst "Add Task" 
+    waardoor je ingevulde taak wordt toegevoegd aan de lijst
+[x]  Als gebruiker zie ik wanneer ik op de add-button heb geklikt mijn taak
+    in de takenlijst verschijnen
+[x]  Taak verwijderen: Als gebruiker kan ik in de takenlijst op een icoontje 
+    klikken van een prullenbak, rechts naast de taak. Waardoor de taak uit 
+    mijn takenlijst wordt verwijderd
+
+API requirements:
+
+[x]  GET: verkrijg de (initiële) lijst met taken van de database
+[x]  POST: update de takenlijst met één nieuwe taak. Stuur alleen: 
+    {description: "blah", done: false}
+[x]  DELETE: Verwijder een taak uit de database. Gebruik  de ID die je terugkrijgt 
+    als identifier
+[x]  maak een file genaamd api-client.js voor al je requests
+
+Bonus requirements:
+
+[x]  Taak doorstrepen: Als gebruiker kan ik in de takenlijst op een checkbox 
+    klikken, links naast de taak, waardoor de tekst van de taak doorgestreept 
+    wordt en ik mijn taak kan afstrepen.     
+[]  Als gebruiker wil ik op mijn taak kunnen klikken en de tekst kunnen aanpassen.
+
+Met bijbehorende API requirements:
+
+[x]  PUT: update een bestaande taak de property done of niet done.
+[]  PUT: update een bestaande taak met de PUT methode.
+
+Sorry - maar:
+
+[x] Styling is wèl belangrijk
