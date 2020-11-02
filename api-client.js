@@ -1,4 +1,4 @@
-const myAPIurl = `https://jsonbox.io/box_5ea608dfe8f8cf292fa6/`
+const myAPIurl = `https://jsonbox.io/box_1aa6992dfbf0e9d85529/`
 
 //GET request
 const getTasks = async() => {

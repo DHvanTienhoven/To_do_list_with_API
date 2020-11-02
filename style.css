@@ -5,18 +5,19 @@
 
 body{
     font-family: ArchitectsDaughter;
-    font-size: 25px;
+    font-size: 15px;
     background-color: #8bcdcd;
     color:#3797a4;
 }
 
 h1 {
-    font-size: 50px;
+    margin-top: 2em;
+    font-size: 30px;
     text-align: center;
 }
 
 .to-do-list{
-    width: 25em;
+    max-width: 80vw;
     background-color: #FFF8cd;
     padding: 1em;
     list-style: none;
@@ -26,7 +27,7 @@ h1 {
 
 button{
     font-family: ArchitectsDaughter;
-    font-size: 18px;
+    font-size: 12px;
     background-color: #3797a4;
     color: #FFF8cd;
     border-color: #FFF8cd;
@@ -34,7 +35,7 @@ button{
 }
 
 .input{
-    max-width: 18em;
+    max-width: 80vw;
     margin-bottom: 1.5em;
     margin-left: auto;
     margin-right: auto;
@@ -50,12 +51,12 @@ button{
 }
 
 .input-field{
-    height: 2.5em;
-    width: 18em;
+    
+    width: 12em;
     border-color: #3797a4;
     border-radius: 8px;
     font-family: ArchitectsDaughter;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -77,4 +78,35 @@ button{
 
 .grey{
     background-color: lightgrey;
+}
+
+@media(min-width: 1024px){
+
+    body{
+        font-size: 25px
+    }
+
+    h1{
+        font-size: 50px
+    }
+
+    button{
+        font-size: 20px
+    }
+
+    .to-do-list{
+        width: 25em;
+    }
+    
+    .input{
+        max-width: 18em;
+        margin-bottom: 1.5em;
+        
+    }
+
+    .input-field{
+        height: 2.5em;
+        width: 18em;
+        font-size: 15px;
+    }
 }
