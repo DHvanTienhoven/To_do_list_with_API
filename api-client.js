@@ -47,5 +47,4 @@ const completeOneTask = async (id, data, state) =>{
     });
     const json = await result.json();
     console.log(json);
-}
-
+};
